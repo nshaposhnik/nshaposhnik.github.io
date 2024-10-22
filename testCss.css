@@ -1,0 +1,16 @@
+/* This file is required for Pliant widget in the mobile app */
+
+.wrapper {
+  width: 200px;
+  height: 316px;
+  background: rgb(34,193,195);
+  background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.pliant-pci-widget {
+  background: none;
+}
+
+.pliant-preloaded-data-overlay {
+  background: none;
+}
