@@ -6,7 +6,7 @@
   background: rgb(34,193,195);
   border-radius: 25px;
   border: 2px solid red;
-  background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background-image: url("https://github.com/nshaposhnik/nshaposhnik.github.io/blob/main/card-background%404x.png")
 }
 
 .pliant-pci-widget {
