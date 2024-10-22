@@ -7,10 +7,10 @@
   border: 2px solid red; */
   background-image: url("https://github.com/nshaposhnik/nshaposhnik.github.io/blob/main/card-background-flipped%404x.png");
   background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
+/*   background-repeat: no-repeat; */
+/*   width: 100%;
   height: 0;
-  padding-top: 58.469%; /* (img-height / img-width * container-width) */
+  padding-top: 58.469%; /* (img-height / img-width * container-width) */ */
                 /* (853 / 1280 * 100) */
 }
 
