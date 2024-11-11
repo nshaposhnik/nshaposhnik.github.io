@@ -1,8 +1,8 @@
 /* This file is required for Pliant widget in the mobile app */
 
 .wrapper {
-  width: 400vw;
-  height: 600vw;
+  width: 100%;
+  height: 100%;
 /*   height: 216px; */
 /* /*   border-radius: 25px; */
   border: 2px solid transparent;
