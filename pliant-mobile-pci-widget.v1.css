@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "MaisonNeue";
+  src: url("https://assets.getpliant.com/fonts/MaisonNeue-Book.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+}
+
+.pliant-pci-widget {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 12vw; /** 24/200*100 **/
+  background: transparent;
+}
+.pliant-pci-widget-container {
+  row-gap: 0;
+}
+
+.pliant-expiry-cvv-result {
+  margin-top: 3.797vh; /** 12/316*100 **/
+}
+
+.pliant-cvv-result,
+.pliant-expiry-result {
+  width: 50%;
+}
+
+.pliant-cardholder-result {
+  display: none;
+}
+
+.pliant-copy-btn {
+  display: none;
+}
+
+/**
+* Hack for the card number (someone set mono font as default in html)
+*/
+.mono {
+  font-family: "MaisonNeue", sans-serif;
+}
+
+.pliant-field-value {
+  font: 400 5vh/5vh "MaisonNeue", sans-serif; /** 16/316*100 **/
+  letter-spacing: 0.25px;
+}
+
+.pliant-field-name {
+  font: 400 3.79vh/3.8vh "MaisonNeue", sans-serif; /** 12/316*100 **/
+  letter-spacing: 0.5px;
+}
+
+/**
+* Physical Card
+*/
+
+.physical-card .pliant-pan-result {
+  margin-top: 50.949vh; /** 161/316*100 **/
+}
+
+.physical-card .pliant-field-value {
+  color: rgba(255, 255, 255, 1);
+}
+
+.physical-card .pliant-field-name {
+  color: rgba(255, 255, 255, 1);
+}
+
+/**
+* Virtual Card
+*/
+
+.virtual-card .pliant-pan-result {
+  margin-top: 63.924vh; /** 202/316*100 **/
+}
+
+.virtual-card .pliant-field-value {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.virtual-card .pliant-field-name {
+  color: rgba(0, 0, 0, 0.87);
+}
