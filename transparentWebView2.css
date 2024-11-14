@@ -1,7 +1,7 @@
 /* This file is required for Pliant widget in the mobile app */
 
 .wrapper {
-  width: 250px;
+  width: 350px;
   height: 356px;
 /*   height: 216px; */
 /* /*   border-radius: 25px; */
@@ -26,6 +26,6 @@
 }
 
 .pliant-expiry-cvv-result {
-  margin-top: 12.797vh; /** 12/316*100 **/
+  margin-top: 5.797vh; /** 12/316*100 **/
 }
 
