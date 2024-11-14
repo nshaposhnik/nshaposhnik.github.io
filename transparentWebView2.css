@@ -1,4 +1,31 @@
+/* This file is required for Pliant widget in the mobile app */
+
+.wrapper {
+  width: 200px;
+  height: 316px;
+/*   height: 216px; */
+/* /*   border-radius: 25px; */
+  border: 2px solid transparent;
+/*   background-image: url("https://nshaposhnik.github.io/card-background@3x.png"); */
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+/*   width: 100%;
+  height: 0;
+  padding-top: 58.469%; /* (img-height / img-width * container-width) */ */
+                /* (853 / 1280 * 100) */
+}
+
+.pliant-pci-widget {
+  background: none;
+}
+
+.pliant-preloaded-data-overlay {
+  background: none;
+}
+
 .pliant-expiry-cvv-result {
-  margin-top: 3.797vh; /** 12/316*100 **/
+  margin-top: 8.797vh; /** 12/316*100 **/
 }
 
