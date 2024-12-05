@@ -29,3 +29,18 @@
   margin-top: 2.797vh; /** 12/316*100 **/
 }
 
+.physical-card .pliant-field-value {
+  color: rgba(255, 255, 255, 1);
+}
+
+.physical-card .pliant-field-name {
+  color: rgba(255, 255, 255, 1);
+}
+
+.virtual-card .pliant-field-value {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.virtual-card .pliant-field-name {
+  color: rgba(0, 0, 0, 0.87);
+}
